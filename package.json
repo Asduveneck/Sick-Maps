@@ -1,0 +1,29 @@
+{
+  "name": "disease_mapper",
+  "version": "1.0.0",
+  "description": "Project is currently undergoing major development/reconstruction. Please check back soon for more updates.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --mode=development --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Asduveneck/Sick-Maps.git"
+  },
+  "author": "Alex Duveneck",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Asduveneck/Sick-Maps/issues"
+  },
+  "homepage": "https://github.com/Asduveneck/Sick-Maps#readme",
+  "dependencies": {
+    "@babel/core": "^7.7.4",
+    "@babel/preset-env": "^7.7.4",
+    "babel-loader": "^8.0.6",
+    "node-sass": "^4.13.0",
+    "scss-compile": "^0.1.7",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
