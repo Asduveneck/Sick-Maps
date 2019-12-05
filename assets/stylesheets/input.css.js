@@ -4,3 +4,4 @@ import './base/config.scss'
 
 // Components:
 import './components/front_page.scss'
+import './components/base_map.scss'
