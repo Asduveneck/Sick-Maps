@@ -9,31 +9,34 @@
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-firestore.js"></script>
     <script>
-      import { firebaseKey } from './config/keys';
+      // import { firebaseKey } from './config/keys';
       // Your web app's Firebase configuration
-      let firebaseConfig = {
-        apiKey: firebaseKey,
-        authDomain: "sick-maps.firebaseapp.com",
-        databaseURL: "https://sick-maps.firebaseio.com",
-        projectId: "sick-maps",
-        storageBucket: "sick-maps.appspot.com",
-        messagingSenderId: "220040589591",
-        appId: "1:220040589591:web:bad4fdaf7cefcd8d16c752",
-        measurementId: "G-0PCKZLT3SR"
-      };
+      // let firebaseConfig = {
+      //   apiKey: firebaseKey,
+      //   authDomain: "sick-maps.firebaseapp.com",
+      //   databaseURL: "https://sick-maps.firebaseio.com",
+      //   projectId: "sick-maps",
+      //   storageBucket: "sick-maps.appspot.com",
+      //   messagingSenderId: "220040589591",
+      //   appId: "1:220040589591:web:bad4fdaf7cefcd8d16c752",
+      //   measurementId: "G-0PCKZLT3SR"
+      // };
       // Initialize Firebase
-      firebase.initializeApp(firebaseConfig);
+      // firebase.initializeApp(firebaseConfig);
       // firebase.analytics();
-      const db = firebase.firestore(); // initializes firestore app. // We can now access this in our db
-      db.settings({ timestampsInSnapshots: true }); // modify it.
+      // const db = firebase.firestore(); // initializes firestore app. // We can now access this in our db
+      // db.settings({ timestampsInSnapshots: true }); // modify it.
     </script>
 
 
+    <!-- D3 Stuff. I thought I had this npm installed?!?-->
+  <!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
+  <script src="https://d3js.org/topojson.v2.js"></script>
     <!-- Our JS -->
       <script defer src="./dist/mainOutput.bundle.js"></script>
 
     <!-- Mapbox -->
-      <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' />
+      <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' /> -->
 
   <title>Disease Mapper</title>
 
@@ -58,16 +61,15 @@
   
 
   <div id="TEST2"></div>
-  <div id="mapId"></div>
 
 
 </body>
 </html>
 
 <!-- The core Firebase JS SDK is always required and must be listed first -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script>
+<!-- <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-app.js"></script> -->
 
 <!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
-<script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
-
+<!-- <script src="https://www.gstatic.com/firebasejs/7.5.0/firebase-analytics.js"></script>
+ -->
