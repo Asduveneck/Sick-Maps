@@ -27,9 +27,6 @@ module.exports = {
   },
   devtool: "source-map",
   resolve: {
-    extensions: [".js", ".scss"],
-    modulesDirectories: [
-      "node_modules"
-    ]
+    extensions: [".js", ".scss"]
   }
 };
