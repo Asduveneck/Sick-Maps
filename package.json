@@ -21,6 +21,7 @@
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.2.1",
     "d3": "^5.14.2",
     "node-sass": "^4.13.0",
     "sass-loader": "^8.0.0",
@@ -31,7 +32,6 @@
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
-    "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0"
   }
 }
