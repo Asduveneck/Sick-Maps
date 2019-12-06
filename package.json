@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode=development --watch"
+    "start": "webpack --mode=development --watch",
+    "scss": "node-sass assets/stylesheets/entry_style.scss assets/stylesheets/output.css"
   },
   "repository": {
     "type": "git",
@@ -21,17 +22,17 @@
     "@babel/core": "^7.7.4",
     "@babel/preset-env": "^7.7.4",
     "babel-loader": "^8.0.6",
-    "css-loader": "^3.2.1",
     "d3": "^5.14.2",
-    "node-sass": "^4.13.0",
-    "sass-loader": "^8.0.0",
     "scss-compile": "^0.1.7",
-    "style-loader": "^1.0.1",
     "topojson-client": "^3.1.0",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   },
   "devDependencies": {
-    "mini-css-extract-plugin": "^0.8.0"
+    "css-loader": "^3.2.1",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.13.0",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.1"
   }
 }
