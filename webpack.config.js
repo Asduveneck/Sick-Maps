@@ -21,16 +21,15 @@ module.exports = {
 
       {
         test: /\.scss$/,
-        use: [
-          "style-loader",
-          "css-loader",
-          "sass-loader"
-        ]
+        use: ["style-loader", "css-loader", "sass-loader"]
       }
     ]
   },
   devtool: "source-map",
   resolve: {
-    extensions: [".js", ".css"],
+    extensions: [".js", ".scss"],
+    modulesDirectories: [
+      "node_modules"
+    ]
   }
 };
