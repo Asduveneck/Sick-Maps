@@ -5,8 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack --mode=development --watch",
-    "scss": "node-sass assets/stylesheets/entry_style.scss assets/stylesheets/output.css"
+    "dev": "webpack --mode=development --watch",
+    "scss": "node-sass assets/stylesheets/entry_style.scss assets/stylesheets/output.css",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "@babel/preset-env": "^7.7.4",
     "babel-loader": "^8.0.6",
     "d3": "^5.14.2",
+    "express": "^4.17.1",
     "scss-compile": "^0.1.7",
     "topojson-client": "^3.1.0",
     "webpack": "^4.41.2",
