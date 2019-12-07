@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode=development --watch",
+    "old_start": "webpack --mode=development --watch",
     "scss": "node-sass assets/stylesheets/entry_style.scss assets/stylesheets/output.css",
-    "start": "node server.js"
+    "start": "node server.js",
+    "heroku-postbuild": "webpack -p" 
   },
   "repository": {
     "type": "git",
