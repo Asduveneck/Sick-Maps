@@ -30,15 +30,11 @@
       // db.settings({ timestampsInSnapshots: true }); // modify it.
     </script>
 
-
     <!-- D3 Stuff. I thought I had this npm installed?!?-->
   <!-- <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script> -->
   <script src="https://d3js.org/topojson.v2.js"></script>
     <!-- Our JS -->
       <script defer src="./dist/mainOutput.bundle.js"></script>
-
-    <!-- Mapbox -->
-      <!-- <link href='https://api.mapbox.com/mapbox-gl-js/v1.4.1/mapbox-gl.css' rel='stylesheet' /> -->
 
   <title>Disease Mapper</title>
 
@@ -47,23 +43,23 @@
   
   <div class="nav_bar">
     <div class="nb_left">
-      <div id = "dm">Disease Mapper</div>
-      <div id = "">Story</div>
-      <div id = "">View</div>
-      <div id = "">Compare</div>
+      <div id="dm">Disease Mapper</div>
+      <div>Story</div>
+      <div>View</div>
+      <div>Compare</div>
     </div>
 
     <div class="nb_right">
-      <div>About</div>
+      <div class="modalButton">About</div>
     </div>
   </div>
 
-
-
-  
-
-  <div id="TEST2"></div>
-
+  <div id="aboutModal" class="modal">
+    <div class="modal-content">
+      <span class="closeBtn">&times;</span>
+      <p>About Placeholder Modal. Will contain information about the data</p>
+    </div>
+  </div>
 
 </body>
 </html>
