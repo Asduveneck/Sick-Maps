@@ -4,7 +4,7 @@
 }
 
 .modal {
-  // display: none;
+  display: none;
   position: fixed;
   z-index: 1;
   left: 0;
@@ -20,5 +20,23 @@
   margin: 10vh auto;
   padding: 5%;
   width: 80%;
-  box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16
+  box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16;
+  h1 {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
 }
+
+.closeBtn {
+  position: absolute;
+  right: 6vw;
+  top: 10.5vh;
+  font-size: 45px;
+  color: $wt_85;
+}
+
+  .closeBtn:hover, .closeBtn:focus {
+    color: $wt_95; // Switch to some secondary colors
+    text-decoration: none;
+    cursor: pointer;
+  }
