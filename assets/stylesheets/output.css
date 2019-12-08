@@ -112,3 +112,23 @@ svg {
     stroke-linejoin: round;
     stroke-linecap: round;
     pointer-events: none; }
+
+.modalButton:hover {
+  background: rgba(255, 255, 255, 0.07); }
+
+.modal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0); }
+
+.modal-content {
+  background-color: rgba(18, 18, 18, 0.75);
+  margin: 10vh auto;
+  padding: 5%;
+  width: 80%;
+  box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.05), 0 7px 20px 0 rgba(255, 255, 255, 0.16); }

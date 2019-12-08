@@ -1,0 +1,24 @@
+
+.modalButton:hover {
+  background: $wt_07
+}
+
+.modal {
+  // display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  overflow: auto;
+  background: $transparent;
+}
+
+.modal-content {
+  background-color: rgba(18,18,18,0.75);
+  margin: 10vh auto;
+  padding: 5%;
+  width: 80%;
+  box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16
+}
