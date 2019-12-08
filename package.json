@@ -8,6 +8,7 @@
     "scssReload": "node-sass -w assets/stylesheets/ assets/stylesheets/output.css",
     "scss": "node-sass assets/stylesheets/entry_style.scss assets/stylesheets/output.css",
     "start": "node server.js",
+    "dev": "webpack --mode=development --watch",
     "heroku-postbuild": "webpack -p" 
   },
   "repository": {
