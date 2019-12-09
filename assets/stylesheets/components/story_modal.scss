@@ -1,0 +1,20 @@
+.story-modal {
+  // display: none;
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 1vw;
+  top: 10vh;
+  height: 25vh;
+  width: 34vw;
+  overflow: auto;
+  background: $wt_05;
+  // background-color: rgba(18,18,18,0.75);
+  justify-content: center;
+  text-align: center;
+
+  h1 {
+    font-size: 25px;
+    margin: 10px 0px;
+  }
+}

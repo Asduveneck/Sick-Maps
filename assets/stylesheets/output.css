@@ -160,3 +160,19 @@ svg {
   color: rgba(255, 255, 255, 0.95);
   text-decoration: none;
   cursor: pointer; }
+
+.story-modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 1vw;
+  top: 10vh;
+  height: 25vh;
+  width: 34vw;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.05);
+  justify-content: center;
+  text-align: center; }
+  .story-modal h1 {
+    font-size: 25px;
+    margin: 10px 0px; }
