@@ -164,17 +164,44 @@ svg {
 .story-modal {
   position: fixed;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   z-index: 1;
   left: 1vw;
   top: 10vh;
-  height: 25vh;
+  height: 200px;
   width: 34vw;
   overflow: auto;
   background: rgba(255, 255, 255, 0.05);
-  justify-content: center;
-  text-align: center;
-  align-content: space-between; }
+  align-content: center;
+  text-align: center; }
   .story-modal h1 {
     font-size: 25px;
     margin: 10px 0px; }
+  .story-modal .modal-content {
+    background-color: magenta;
+    width: 90%;
+    height: 155px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+  .story-modal p {
+    margin-bottom: 10px;
+    background: aqua; }
+  .story-modal .btn {
+    font-size: 30px;
+    background-color: maroon;
+    margin: 0 5px; }
+
+.storyNav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: greenyellow;
+  margin: 10px 0; }
+
+.storyNumHolder {
+  background-color: mediumblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }

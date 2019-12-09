@@ -2,21 +2,52 @@
   // display: none;
   position: fixed;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   z-index: 1;
   left: 1vw;
   top: 10vh;
-  height: 25vh;
+  height: 200px;
   width: 34vw;
   overflow: auto;
   background: $wt_05;
   // background-color: rgba(18,18,18,0.75);
-  justify-content: center;
+  align-content: center;
   text-align: center;
-  align-content: space-between;
 
   h1 {
     font-size: 25px;
     margin: 10px 0px;
   }
+  .modal-content {
+    background-color: magenta;
+    width: 90%;
+    height: 155px;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  p {
+    margin-bottom: 10px;
+    background: aqua;
+  }
+  .btn {
+    font-size: 30px;
+    background-color: maroon;
+    margin: 0 5px;
+  }  
+}
+.storyNav {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  background: greenyellow;
+  margin: 10px 0;
+}
+.storyNumHolder {
+  // width: 80%;
+  background-color: mediumblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
