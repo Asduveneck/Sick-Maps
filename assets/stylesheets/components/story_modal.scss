@@ -9,12 +9,10 @@
   height: 200px;
   width: 34vw;
   overflow: auto;
-  // background: $wt_05;
   background-color: rgba(18,18,18,0.75);
   align-content: center;
   text-align: center;
-  // box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16;
-  box-shadow: 0px 0px 5px 6px $wt_05, 3px 3px 5px 5px $wt_16;
+  box-shadow: 1px 1px 2px 3px $wt_05, 0px 0px 3px 4px $wt_16;
 
 
   h1 {

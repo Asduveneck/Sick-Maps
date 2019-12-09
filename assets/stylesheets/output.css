@@ -174,7 +174,7 @@ svg {
   background-color: rgba(18, 18, 18, 0.75);
   align-content: center;
   text-align: center;
-  box-shadow: 0px 0px 5px 6px rgba(255, 255, 255, 0.05), 3px 3px 5px 5px rgba(255, 255, 255, 0.16); }
+  box-shadow: 1px 1px 2px 3px rgba(255, 255, 255, 0.05), 0px 0px 3px 4px rgba(255, 255, 255, 0.16); }
   .story-modal h1 {
     font-size: 25px;
     margin: 10px 0px; }
