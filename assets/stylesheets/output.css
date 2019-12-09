@@ -162,8 +162,9 @@ svg {
   cursor: pointer; }
 
 .story-modal {
-  display: flex;
   position: fixed;
+  display: flex;
+  flex-direction: row;
   z-index: 1;
   left: 1vw;
   top: 10vh;
@@ -172,7 +173,8 @@ svg {
   overflow: auto;
   background: rgba(255, 255, 255, 0.05);
   justify-content: center;
-  text-align: center; }
+  text-align: center;
+  align-content: space-between; }
   .story-modal h1 {
     font-size: 25px;
     margin: 10px 0px; }
