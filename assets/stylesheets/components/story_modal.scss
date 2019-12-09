@@ -44,6 +44,10 @@
   justify-content: center;
   // background: greenyellow;
   margin: 10px 0;
+
+  .btn:hover {
+    cursor: pointer;
+  }
 }
 .storyNumHolder {
   // width: 80%;

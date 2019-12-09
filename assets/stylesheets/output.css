@@ -197,6 +197,8 @@ svg {
   align-content: center;
   justify-content: center;
   margin: 10px 0; }
+  .storyNav .btn:hover {
+    cursor: pointer; }
 
 .storyNumHolder {
   display: flex;
