@@ -161,6 +161,9 @@ svg {
   text-decoration: none;
   cursor: pointer; }
 
+#storyModBtn {
+  background-color: rgba(255, 255, 255, 0.09); }
+
 .story-modal {
   position: fixed;
   display: flex;
