@@ -9,17 +9,20 @@
   height: 200px;
   width: 34vw;
   overflow: auto;
-  background: $wt_05;
-  // background-color: rgba(18,18,18,0.75);
+  // background: $wt_05;
+  background-color: rgba(18,18,18,0.75);
   align-content: center;
   text-align: center;
+  // box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16;
+  box-shadow: 0px 0px 5px 6px $wt_05, 3px 3px 5px 5px $wt_16;
+
 
   h1 {
     font-size: 25px;
     margin: 10px 0px;
   }
   .modal-content {
-    background-color: magenta;
+    // background: magenta;
     width: 90%;
     height: 155px;
     align-self: center;
@@ -29,11 +32,11 @@
   }
   p {
     margin-bottom: 10px;
-    background: aqua;
+    // background: aqua;
   }
   .btn {
     font-size: 30px;
-    background-color: maroon;
+    // background: maroon;
     margin: 0 5px;
   }  
 }
@@ -41,12 +44,12 @@
   display: flex;
   align-content: center;
   justify-content: center;
-  background: greenyellow;
+  // background: greenyellow;
   margin: 10px 0;
 }
 .storyNumHolder {
   // width: 80%;
-  background-color: mediumblue;
+  // background: mediumblue;
   display: flex;
   flex-direction: column;
   justify-content: center;
