@@ -13,20 +13,19 @@
   width: 100%;
   overflow: auto;
   background: $transparent;
-}
 
-.modal-content {
-  background-color: rgba(18,18,18,0.75);
-  margin: 10vh auto;
-  padding: 5%;
-  width: 80%;
-  box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16;
-  h1 {
-    font-size: 25px;
-    margin-bottom: 10px;
+  .modal-content { // TODO: later find out how much of this needs to be nested inside this modal class and how much I can remove later
+    background-color: rgba(18,18,18,0.75);
+    margin: 10vh auto;
+    padding: 5%;
+    width: 80%;
+    box-shadow: 0 5px 8px 0 $wt_05, 0 7px 20px 0 $wt_16;
+    h1 {
+      font-size: 25px;
+      margin-bottom: 10px;
+    }
   }
 }
-
 .closeBtn {
   position: absolute;
   right: 6vw;
@@ -34,7 +33,6 @@
   font-size: 45px;
   color: $wt_85;
 }
-
   .closeBtn:hover, .closeBtn:focus {
     color: $wt_95; // Switch to some secondary colors
     text-decoration: none;

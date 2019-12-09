@@ -139,16 +139,15 @@ svg {
   width: 100%;
   overflow: auto;
   background: rgba(255, 255, 255, 0); }
-
-.modal-content {
-  background-color: rgba(18, 18, 18, 0.75);
-  margin: 10vh auto;
-  padding: 5%;
-  width: 80%;
-  box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.05), 0 7px 20px 0 rgba(255, 255, 255, 0.16); }
-  .modal-content h1 {
-    font-size: 25px;
-    margin-bottom: 10px; }
+  .modal .modal-content {
+    background-color: rgba(18, 18, 18, 0.75);
+    margin: 10vh auto;
+    padding: 5%;
+    width: 80%;
+    box-shadow: 0 5px 8px 0 rgba(255, 255, 255, 0.05), 0 7px 20px 0 rgba(255, 255, 255, 0.16); }
+    .modal .modal-content h1 {
+      font-size: 25px;
+      margin-bottom: 10px; }
 
 .closeBtn {
   position: absolute;
