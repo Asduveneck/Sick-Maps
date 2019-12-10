@@ -8,7 +8,7 @@
   top: 10vh;
   height: 200px;
   width: 34vw;
-  overflow: auto;
+  // overflow: auto;
   background-color: rgba(18,18,18,0.75);
   align-content: center;
   text-align: center;
@@ -31,6 +31,7 @@
   p {
     margin-bottom: 10px;
     // background: aqua;
+    overflow: auto;
   }
   .btn {
     font-size: 30px;
@@ -48,9 +49,16 @@
   .btn:hover {
     cursor: pointer;
   }
+  .fkBtn {
+    display: none;
+    color: $wt_16;
+    font-size: 30px;
+    // background: maroon;
+    margin: 0 5px;
+  }
 }
 .storyNumHolder {
-  // width: 80%;
+  width: 30%;
   // background: mediumblue;
   display: flex;
   flex-direction: column;
