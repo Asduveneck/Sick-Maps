@@ -1,10 +1,6 @@
-// $transparent: rgba(255, 255, 255, 0);
-// $wt_14: rgba(255, 255, 255, 0.14);
-// $wt_11: rgba(255, 255, 255, 0.11);
-
 svg {
   background-color: $transparent;
-  padding: 8vh 0 0 5vw;
+  padding: 8vh 0 0 5vw; // Make this alterable/editable by JS for the View part?
 
   path.state {
     // border-style: solid;
@@ -18,7 +14,7 @@ svg {
 
   path.state-borders {
     fill: none;
-    stroke: $wt_14;
+    stroke: $wt_14; // Maybe make border colors more white (like 85?)
     stroke-width: 0.5px;
     stroke-linejoin: round;
     stroke-linecap: round;
