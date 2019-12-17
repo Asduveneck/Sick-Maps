@@ -98,7 +98,8 @@ $err
 .nav_bar {
   display: flex;
   justify-content: space-between;
-  background-color: rgba(255, 255, 255, 0.05); }
+  background-color: rgba(255, 255, 255, 0.05);
+  margin-bottom: 5vh; }
   .nav_bar .nb_left {
     display: flex;
     justify-content: flex-start; }
@@ -113,7 +114,7 @@ $err
 
 svg {
   background-color: rgba(255, 255, 255, 0);
-  padding: 8vh 0 0 5vw; }
+  padding: 0vh 0 0 5vw; }
   svg path.state {
     fill: rgba(255, 255, 255, 0.11); }
   svg path.state:hover {
